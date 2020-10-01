@@ -5,9 +5,9 @@ class client{
 public static void main(String args[])
     {
 	try{
-  Socket s=new Socket("127.0.0.1",1234);
+  Socket s=new Socket("192.127.0.2",1234);
   DataOutputStream dos=new DataOutputStream(s.getOutputStream());
-  dos.writeUTF("Hello sardana");
+  dos.writeUTF("Hello Alexa Bot");
   dos.close();
   s.close();
    }
